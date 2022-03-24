@@ -22,11 +22,11 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
   * Which characters have the most appearences in all the movies
   * Which movie has the moste characters / edges
   * Which node has the most edges
-- Recommandation
+- Recommandation (one notebook)
   * Is peson "a" good connect to other charactes
   * In which movies is my favorte character
   * Most important character 
-- Hidden connections
+- Hidden connections (one notebook)
   * Is peson "a" connect to other charactes (n-hidden layers) 
   * In which movies are n charactes the same
  
