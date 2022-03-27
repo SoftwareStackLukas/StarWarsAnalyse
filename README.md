@@ -14,19 +14,19 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
   * Which properties has the x and y character like:
   * Names of nodes
   * Names of edges
-- Clustering (one notebook)
+- Clustering (one notebook) (Lukas)
   * Showing all characters in each movie
   * Showing characters which are in couple of movies
   * Relations of figures which interactes in diffrent movies
-- Counting (one notebook)
+- Counting (one notebook) (Robert)
   * Which characters have the most appearences in all the movies
   * Which movie has the moste characters / edges
   * Which node has the most edges
-- Recommandation (one notebook)
+- Recommandation (one notebook) (Robert)
   * Is peson "a" good connect to other charactes
   * In which movies is my favorte character
   * Most important character 
-- Hidden connections (one notebook)
+- Hidden connections (one notebook) (Lukas)
   * Is peson "a" connect to other charactes (n-hidden layers) 
   * In which movies are n charactes the same
  
