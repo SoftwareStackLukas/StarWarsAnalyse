@@ -30,6 +30,9 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
   * Is peson "a" connect to other charactes (n-hidden layers) 
   * In which movies are n charactes the same
  
+ ## Optional
+  * Adding/Changing/Deleting: Attributes, Labels, Relations Nodes during runtime
+ 
  ## The Stack
  - https://bloom.neo4j.io
  ## Data Analyse we did
