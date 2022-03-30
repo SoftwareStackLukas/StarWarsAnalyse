@@ -10,7 +10,7 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
 - Import data (locally / in azure cloud [Neo4j]) (done - script exists now)
 - Database connection (done)
 - General graph schema (Visualisation) / All graphes visualisation (Important2Do)!
-- Property search
+- Property search (ready for review)
   * Which properties has the x and y character like:
   * Names of nodes
   * Names of edges
