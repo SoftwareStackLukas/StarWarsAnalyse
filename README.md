@@ -33,3 +33,9 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
  ## The Stack
  - https://bloom.neo4j.io
  ## Data Analyse we did
+
+ ## Libaries used:
+ * neo4j-driver
+ * neo4jupyter
+ * %load_ext icypher
+ * pandas
