@@ -37,3 +37,5 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
  ## Libaries used:
  * neo4j-driver
  * neo4jupyter
+ * %load_ext icypher
+ * pandas
