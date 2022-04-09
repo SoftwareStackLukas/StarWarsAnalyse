@@ -34,7 +34,7 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
   * Adding/Changing/Deleting: Attributes, Labels, Relations Nodes during runtime
  
  ## The Stack
- - https://bloom.neo4j.io
+ - Neo4J Bloom
  - Neo4J Web Interface
  - Neo4J Desktop / Neo4J@Azure
  ## Data Analyse we did
