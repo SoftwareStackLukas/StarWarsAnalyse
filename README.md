@@ -9,12 +9,12 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
 ## Tasks to do
 - Import data (locally / in azure cloud [Neo4j]) (Lukas) (done - script exists now) 
 - Database connection (done)
-- General graph schema (Visualisation) / All graphes visualisation (Important2Do)! 
+- General graph schema (Visualisation) / All graphes visualisation (Important2Do)! (ready for review) 
 - Property search (Lukas) (ready for review)
   * Which properties has the x and y character like:
   * Names of nodes
   * Names of edges
-- Clustering (one notebook) (Lukas)
+- Clustering (one notebook) (Lukas) (ready for review)
   * Showing all characters in each movie
   * Showing characters which are in couple of movies
   * Relations of figures which interactes in diffrent movies
