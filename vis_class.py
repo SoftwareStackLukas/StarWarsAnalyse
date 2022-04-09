@@ -1,11 +1,10 @@
 import neo4jupyter as n4j
 
-class vis_class:
+class vis_class():
     def __init__(self):
         n4j.init_notebook_mode()
         print("Vis class was created")
-    
-    # Based on function draw() from neo4jupyter (https://github.com/merqurio/neo4jupyter)
+
     def drawGraph(graph, options, query, physics=True):
         """
         The options argument should be a dictionary of node labels and property keys; it determines which property
@@ -52,4 +51,3 @@ class vis_class:
                 edges.append({"from": source_info["id"], "to": target_info["id"], "label": rel.__class__.__name__})
 
         return n4j.vis_network(nodes, edges, physics=physics)
-
