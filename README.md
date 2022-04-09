@@ -36,7 +36,7 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
  ## The Stack
  - Neo4J Bloom
  - Neo4J Web Interface
- - Neo4J Desktop / Neo4J@Azure
+ - Neo4J@Desktop / Neo4J@Azure
  ## Data Analyse we did
 
  ## Libaries used:
