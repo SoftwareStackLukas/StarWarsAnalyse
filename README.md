@@ -42,3 +42,4 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
  * neo4jupyter
  * %load_ext icypher
  * pandas
+ * neo4jupyter --> https://github.com/merqurio/neo4jupyter
