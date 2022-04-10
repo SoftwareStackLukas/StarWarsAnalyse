@@ -14,7 +14,7 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
 ## Functionality / Data Analyse we did
 - Import data in Neo4J@Desktop and Neo4J@Azure 
 - Database connection
-- General graph schema (Visualisation
+- General graph schema (Visualisation)
 - Setup and property search 
   * Prepare databse before importing
   * Importing the graph data
