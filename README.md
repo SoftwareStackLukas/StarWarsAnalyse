@@ -1,3 +1,7 @@
+Individual o por parejas.
+Informe con descripción del problema, código fuente, datos utilizados y análisis de los resultados.
+Presentación de 15 minutos a final de curso.
+
 # StarWarsAnalyse
 
 ## Why are we doing it?
