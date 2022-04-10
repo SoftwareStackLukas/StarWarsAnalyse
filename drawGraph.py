@@ -2,7 +2,7 @@ from neo4j import GraphDatabase
 import networkx as nx
 from matplotlib import pyplot as plt
 
-def drawGraph(driver, query, node_size=2000, fig_size=12, font_size=12):
+def drawGraph(driver, query, node_size=2000, width=12, height=12, font_size=12):
     results = driver.session().run(query)
 
     G = nx.MultiDiGraph()
@@ -37,6 +37,6 @@ def drawGraph(driver, query, node_size=2000, fig_size=12, font_size=12):
                        plt.Line2D([0], [0],color='darkorange', label='APPEARS_IN'),
                        plt.Line2D([0], [0],color='darkred', label='SPEAKS_WITH')]
     edge_colors = nx.get_edge_attributes(G,'color').values()
-    plt.figure(3,figsize=(fig_size,fig_size))
+    plt.figure(3,figsize=(width,height))
     plt.legend(handles=legend_elements)
     nx.draw(G, node_size=node_size, font_size=font_size, node_color=color_map, edge_color=edge_colors, labels=labels, with_labels=True)
