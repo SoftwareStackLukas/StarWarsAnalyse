@@ -1,5 +1,7 @@
 # StarWarsAnalyse
 
+by Lukas Sebastian Hofmann and Roberto XY
+
 ## Why are we doing it?
 Embracing the graph-power of Neo4J. Neo4J is a powerful NoSQL Database which workes/builds on graph theory and is used by many big companies e.g. NASA, AirBnB, Ebay. 
 ### Problem
