@@ -4,6 +4,7 @@ by Lukas Sebastian Hofmann and Roberto XY
 
 ## Why are we doing it?
 Embracing the graph-power of Neo4J. Neo4J is a powerful NoSQL Database which workes/builds on graph theory and is used by many big companies e.g. NASA, AirBnB, Ebay. 
+
 ### Problem
 Even after all this years after Star Wars was published a lot of information is hidden in the movies. We are going to use Neo4J to discover this missed information by diffrent queries to search in the dataset. Due to an easy approach in graph data we have achieved a fast way to get the informations and by own implementations to visulize this informations.  
 
