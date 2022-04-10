@@ -6,23 +6,27 @@ Presentación de 15 minutos a final de curso.
 
 ## Why are we doing it?
 Embracing the graph-power of Neo4J. Neo4J is a powerful NoSQL Database which workes/builds on graph theory and is used by many big companies e.g. NASA, AirBnB, Ebay. 
+### Problem
+Even after all this years after Star Wars was published a lot of information is hidden in the movies. We are going to use Neo4J to discover this missed information by diffrent queries to search in the dataset. Due to an easy approach in graph data we have achieved a fast way to get the informations and by own implementations to visulize this informations.  
 
-## Why are we using the data set
+## Why are we using the data set / data set
 We are using the Star Wars dataset hance it is a pretty popular movie in which maybe not all hidden information is discovered. Whe adopted appoaches form the publication of "Analysis of Film Data Based on Neo4j" from Huiling Lu, Zhiguo Hong, Minyong Shi which are at the Communication University of China. We wanted to prove their approaches on a more specialiczed dataset and see if and how we can adapt part of their ideas to our. The paper was publish on the IEEE Journal. Moreover we added our own ideas to their paper and got powerful insides about the Star Wars series which is from http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html.  
 
-## Tasks to do
-- Import data (locally / in azure cloud [Neo4j]) (Lukas) (done - script exists now) 
-- Database connection (done)
-- General graph schema (Visualisation) / All graphes visualisation (Important2Do)! (ready for review) 
-- Property search (Lukas) (ready for review)
-  * Which properties has the x and y character like:
-  * Names of nodes
-  * Names of edges
-- Clustering (one notebook) (Lukas) (ready for review)
+## Functionality / Data Analyse we did
+- Import data in Neo4J@Desktop and Neo4J@Azure 
+- Database connection
+- General graph schema (Visualisation
+- Setup and property search 
+  * Prepare databse before importing
+  * Importing the graph data
+  * Testing and Visualisation
+  * Diffrent basic queries
+- Clustering
   * Showing all characters in each movie
-  * Showing characters which are in couple of movies
-  * Relations of figures which interactes in diffrent movies
-- Counting (one notebook) (Robert)
+  * Movies with a centern number of characters
+  * Clustering movies in diffrent character size groups
+  * Cluster characters which are in in two diffrent movies
+- Counting (one notebook)
   * Which characters have the most appearences in all the movies
   * Which movie has the moste characters / edges
   * Which node has the most edges
@@ -31,18 +35,19 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
   * In which movies is my favorte character
   * Most important character 
 - Hidden connections (one notebook) (Lukas)
-  * Is peson "a" connect to other charactes (n-hidden layers) 
-  * In which movies are n charactes the same
- 
- ## Optional
-  * Adding/Changing/Deleting: Attributes, Labels, Relations Nodes during runtime
- 
+  * General way of connection (by 5)
+  * What is the HIDDEN PATH BETWEEN
+    * Person - Person
+    * Person - Movie 
+    * Movie - Movie
+
+In all the analyses visualisation of the graph data is done and the transformation from query data to a pandas dataframe. 
+
  ## The Stack
  - Pyton 3.X
  - Neo4J Bloom
  - Neo4J Web Interface
  - Neo4J@Desktop / Neo4J@Azure
- ## Data Analyse we did
 
  ## Libaries used:
  * neo4j-driver
