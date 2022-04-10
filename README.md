@@ -16,7 +16,7 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
 - Database connection
 - General graph schema (Visualisation)
 - Setup and property search 
-  * Prepare databse before importing
+  * Prepare database before importing
   * Importing the graph data
   * Testing and Visualisation
   * Diffrent basic queries
@@ -25,11 +25,11 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
   * Movies with a centern number of characters
   * Clustering movies in diffrent character size groups
   * Cluster characters which are in in two diffrent movies
-- Counting (one notebook)
+- Counting
   * Which characters have the most appearences in all the movies
   * Which movie has the moste characters / edges
   * Which node has the most edges
-- Recommandation (one notebook) (Robert)
+- Recommandation
   * Is peson "a" good connect to other charactes
   * In which movies is my favorte character
   * Most important character 
