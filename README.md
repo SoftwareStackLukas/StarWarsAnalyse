@@ -44,4 +44,5 @@ We are using the Star Wars dataset hance it is a pretty popular movie in which m
  * neo4jupyter
  * %load_ext icypher
  * pandas
- * neo4jupyter --> https://github.com/merqurio/neo4jupyter
+ * neo4jupyter --> https://github.com/merqurio/neo4jupyter (simple visualization)
+ * With neo4jupyter we could not represent all graph data. Thus we implemented our own graph visualization algorithmem which is in vis_class.py --> power_drawGraph which enables us to visualize more complex graph structures. 
