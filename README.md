@@ -52,6 +52,7 @@ In all the analyses visualisation of the graph data is done and the transformati
  * neo4j-driver
  * neo4jupyter
  * %load_ext icypher
- * pandas
+ * pandas / numpy
  * neo4jupyter --> https://github.com/merqurio/neo4jupyter (simple visualization)
- * With neo4jupyter we could not represent all graph data. Thus we implemented our own graph visualization algorithm which is in vis_class.py --> power_drawGraph which enables us to visualize more complex graph structures. 
+ * With neo4jupyter we could not represent all graph data. Thus we implemented our own graph visualization algorithm which is in vis_class.py --> power_drawGraph which enables us to visualize more complex graph structures.
+ * NetworkX
