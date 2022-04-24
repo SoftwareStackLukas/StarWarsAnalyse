@@ -11,6 +11,9 @@ Even after all this years after Star Wars was published a lot of information is 
 ## Why are we using the data set / data set
 We are using the Star Wars dataset hance it is a pretty popular movie in which maybe not all hidden information is discovered. Whe adopted approaches form the publication of "Analysis of Film Data Based on Neo4j" from Huiling Lu, Zhiguo Hong, Minyong Shi which are at the Communication University of China. We wanted to prove their approaches on a more specialized dataset and see if and how we can adapt part of their ideas to our. The paper was published on the IEEE Journal. Moreover we added our own ideas to their paper and got powerful insides about the Star Wars series which is from http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html.  
 
+## SetUp guide
+To use our project on your own db just create a file called "Login.txt" put in the first line your "neo4j+s://..." URL, followed by the user name in the next line and in a further line you put your password. Keep attention that in your .gitignore the file registered that you do not publish the access to your db on github or somewhere else. Afterwards you should run the SetUp-Notebook to create the entries for your database. This is working for Neo4J@Azure and Neo4J@Desktop. In general a rather simple setup. Still it requires a presetup and empty Neo4J db. 
+
 ## Functionality / Data Analyse we did
 - Import data in Neo4J@Desktop and Neo4J@Azure 
 - Database connection
